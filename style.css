@@ -1,0 +1,136 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.arrow_img img{
+    width: 20px;
+    height: 20px;
+}
+
+.settings_img img{
+    width: 20px;
+    height: 20px;
+}
+
+.profile_img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.chat_img1 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile_chat_section{
+    width: 45%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content_section{
+    width: 45%;
+    background-color: aqua;
+}
+
+.mobile_layout{
+    width: 50%;
+    padding: 20px 20px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.name_header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.chat_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chat_box_sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chat1_sec1{
+    background-color: gray;
+    width: 200px;
+    border-radius: 9px;
+}
+.chat2_sec1{
+   background-color: gray;
+   width: 200px;
+   border-radius: 9px;
+}
+
+.chat_box_sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chat3_sec2{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.chat4_sec2{
+    width: 150px;
+    background-color: gray;
+    align-self: flex-end;
+    border-radius: 9px;
+}
+
+.chat5_sec2{
+    width: 120px;
+    background-color: gray;
+    align-self: flex-end;
+    border-radius: 9px;
+}
+
+.chat6_sec3{
+    width: 200px;
+    background-color: gray;
+    border-radius: 9px;
+}
+.walk_sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.walk_sec1{
+  width: 200px;
+  background-color: brown;
+  border-radius: 9px;
+}
+.walk_sec2{
+  width: 200px;
+  background-color: brown;
+  border-radius: 9px;
+}
