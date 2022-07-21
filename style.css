@@ -16,9 +16,7 @@
 --Very-Light-Magenta-radio-button-outline: hsl(289, 100%, 72%);
 }
 
-body{
-    background-color: blue;
-}
+
 
 .arrow_img img{
     width: 20px;
@@ -45,47 +43,89 @@ body{
 
 .container{
     width: 100%;
-    height: 100vh;
-   
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     gap: 30px;
 }
 
 .mobile_chat_section{
     width: 45%;
-   
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.content_section{
+
+.right_content{
     width: 45%;
-    background-color: aqua;
+    
+   
+}
+.content_section{
+    
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.content_section p{
+    color: hsl(270deg, 7%, 64%);
+    font-weight: 400;
+    margin: 0rem 4.7rem 0rem 4.7rem;
+    line-height: 1.5;
+}
+
+.content_section h1{
+    margin-top: 0;
+    margin-left: 5rem;
 }
 
 .mobile_layout{
     width: 50%;
-    padding: 20px 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     background-color: var(--Light-Grayish-Violet-app-background);
-    border: 2px solid var(--White);
+    outline: 9px solid white;
     border-radius: 25px;
     align-self: flex-end;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 .name_header{
-    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    /* background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%)); */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
     font-size: 12px;
+   
 }
+
+.banner{
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-image: linear-gradient(to left, hsl(293deg, 100%, 63%), hsl(264deg, 100%, 61%));
+}
+
+
+.notch {
+    background-color: var(--White);
+    height: 1.25rem;
+    width: 150px;
+    margin: 0 auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+   
+
 .chat_section{
     display: flex;
     flex-direction: column;
@@ -97,14 +137,22 @@ body{
     gap: 20px;
 }
 .chat1_sec1{
-    background-color: gray;
-    width: 200px;
+    color: hsl(276deg, 55%, 52%);
+    background-color: rgb(236, 229, 243);
+    width: fit-content;
     border-radius: 9px;
+    font-size: 0.8rem;
+    max-width: 200px;
+    padding: 0.5rem;
 }
 .chat2_sec1{
-   background-color: gray;
-   width: 200px;
+    color: hsl(276deg, 55%, 52%);
+    background-color: rgb(236, 229, 243);
+    width: fit-content;
    border-radius: 9px;
+   font-size: 0.8rem;
+    max-width: 200px;
+    padding: 0.5rem;
 }
 
 .chat_box_sec2{
@@ -121,23 +169,35 @@ body{
 }
 
 .chat4_sec2{
-    width: 150px;
-    background-color: gray;
+    width: fit-content;
+    color: hsl(276deg, 55%, 52%);
+    background-color: rgb(236, 229, 243);
     align-self: flex-end;
     border-radius: 9px;
+    font-size: 0.8rem;
+    max-width: 200px;
+    padding: 0.5rem;
 }
 
 .chat5_sec2{
-    width: 120px;
-    background-color: gray;
+    width: fit-content;
+    color: hsl(276deg, 55%, 52%);
+    background-color: rgb(236, 229, 243);
     align-self: flex-end;
     border-radius: 9px;
+    font-size: 0.8rem;
+    max-width: 200px;
+    padding: 0.5rem;
 }
 
 .chat6_sec3{
-    width: 200px;
-    background-color: gray;
+    width: fit-content;
+    color: hsl(276deg, 55%, 52%);
+    background-color: rgb(236, 229, 243);
     border-radius: 9px;
+    font-size: 0.8rem;
+    max-width: 200px;
+    padding: 0.5rem;
 }
 .walk_sec{
     display: flex;
@@ -146,12 +206,92 @@ body{
 }
 
 .walk_sec1{
-  width: 200px;
-  background-color: brown;
+ width: fit-content;
+ width: 200px;
+  padding: 0.75rem 1.5rem 0.75rem 0.75rem;
+  background-image: linear-gradient(to right, hsl(293deg, 100%, 63%), hsl(264deg, 100%, 61%));
   border-radius: 9px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  font-size: 12px;
+  color:var(--White) ;
 }
 .walk_sec2{
-  width: 200px;
-  background-color: brown;
+    width: fit-content;
+    width: 200px;
+  padding: 0.75rem 1.5rem 0.75rem 0.75rem;
+  background-image: linear-gradient(to right, hsl(293deg, 100%, 63%), hsl(264deg, 100%, 61%));
   border-radius: 9px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  font-size: 12px;
+  color:var(--White) ;
+}
+
+.input_sec{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.input_sec img{
+    height: 1.5rem;
+}
+
+.transition{
+    border-bottom-left-radius: 225px;
+    border-bottom-right-radius: 225px;
+    width: 450px;
+    height: 750px;
+    background-image: linear-gradient(to bottom, hsl(293deg, 100%, 63%), hsl(264deg, 100%, 61%));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.transition_right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 225px;
+    width: 225px;
+    height: 750px;
+    background-color: rgb(248, 244, 250);
+    z-index: -10;
+}
+
+
+/* Media Query */
+
+@media (max-width: 414px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .mobile_layout{
+        width: 80%;
+        align-self: center;
+    }
+    .mobile_chat_section{
+        width: 100%;
+    }
+    .right_content{
+        width: 100%;
+    }
+
+    .transition{
+        width: 200px;
+    }
+
+    .transition_right{
+        border-top-left-radius:15px;
+    }
 }
